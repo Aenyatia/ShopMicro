@@ -9,11 +9,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Orders", "Online
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Products", "OnlineShop.Products\OnlineShop.Products.csproj", "{C910A574-E48E-4D3A-99A5-AD3858BD3731}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Infrastructure", "OnlineShop.Infrastructure\OnlineShop.Infrastructure.csproj", "{062CAA13-8113-4A45-B131-7A35C10B16F9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Shared", "OnlineShop.Shared\OnlineShop.Shared.csproj", "{062CAA13-8113-4A45-B131-7A35C10B16F9}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Customers", "OnlineShop.Customers\OnlineShop.Customers.csproj", "{F5F866C8-213B-4C6B-8672-A8F2B06D2C7B}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Customers", "OnlineShop.Customers\OnlineShop.Customers.csproj", "{F5F866C8-213B-4C6B-8672-A8F2B06D2C7B}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Identity", "OnlineShop.Identity\OnlineShop.Identity.csproj", "{92B52A4A-77DD-43FE-8704-C513C5888A8A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Identity", "OnlineShop.Identity\OnlineShop.Identity.csproj", "{92B52A4A-77DD-43FE-8704-C513C5888A8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
