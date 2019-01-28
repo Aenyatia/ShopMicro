@@ -15,8 +15,6 @@
 	</ItemGroup>
 
 	<ItemGroup>
-	  <Folder Include="CQS\Events\" />
-	  <Folder Include="CQS\Messages\" />
 	  <Folder Include="CQS\Queries\" />
 	</ItemGroup>
 

@@ -8,5 +8,6 @@
 		public static string InvalidProductPrice => "invalid_product_price";
 		public static string InvalidProductQuantity => "invalid_product_quantity";
 		public static string ProductAlreadyExists => "product_already_exists";
+		public static string ProductNotFound => "product_not_found";
 	}
 }

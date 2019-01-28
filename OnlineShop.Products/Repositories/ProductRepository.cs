@@ -17,8 +17,8 @@ namespace OnlineShop.Products.Repositories
 		public async Task<Product> GetAsync(Guid id)
 			=> await _context.GetAsync(id);
 
-		public async Task<bool> ExistsAsync(Guid id)
-			=> await _context.ExistsAsync(id);
+		public async Task<bool> ExistsAsync(string name)
+			=> await _context.ExistsAsync(p => p.Name == name);
 
 		public async Task AddAsync(Product product)
 			=> await _context.AddAsync(product);
