@@ -3,7 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.329
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Api", "OnlineShop.Api\OnlineShop.Api.csproj", "{9970F7CB-9746-4890-A5AF-50CA41235896}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Api", "OnlineShop.Api\OnlineShop.Api.csproj", "{9970F7CB-9746-4890-A5AF-50CA41235896}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Orders", "OnlineShop.Orders\OnlineShop.Orders.csproj", "{626CC4E2-0A7D-4037-940B-684F094E7FEA}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Products", "OnlineShop.Products\OnlineShop.Products.csproj", "{C910A574-E48E-4D3A-99A5-AD3858BD3731}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OnlineShop.Infrastructure", "OnlineShop.Infrastructure\OnlineShop.Infrastructure.csproj", "{062CAA13-8113-4A45-B131-7A35C10B16F9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Customers", "OnlineShop.Customers\OnlineShop.Customers.csproj", "{F5F866C8-213B-4C6B-8672-A8F2B06D2C7B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OnlineShop.Identity", "OnlineShop.Identity\OnlineShop.Identity.csproj", "{92B52A4A-77DD-43FE-8704-C513C5888A8A}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +25,26 @@ Global
 		{9970F7CB-9746-4890-A5AF-50CA41235896}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9970F7CB-9746-4890-A5AF-50CA41235896}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9970F7CB-9746-4890-A5AF-50CA41235896}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626CC4E2-0A7D-4037-940B-684F094E7FEA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626CC4E2-0A7D-4037-940B-684F094E7FEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626CC4E2-0A7D-4037-940B-684F094E7FEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626CC4E2-0A7D-4037-940B-684F094E7FEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C910A574-E48E-4D3A-99A5-AD3858BD3731}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C910A574-E48E-4D3A-99A5-AD3858BD3731}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C910A574-E48E-4D3A-99A5-AD3858BD3731}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C910A574-E48E-4D3A-99A5-AD3858BD3731}.Release|Any CPU.Build.0 = Release|Any CPU
+		{062CAA13-8113-4A45-B131-7A35C10B16F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{062CAA13-8113-4A45-B131-7A35C10B16F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{062CAA13-8113-4A45-B131-7A35C10B16F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{062CAA13-8113-4A45-B131-7A35C10B16F9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F5F866C8-213B-4C6B-8672-A8F2B06D2C7B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F5F866C8-213B-4C6B-8672-A8F2B06D2C7B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F5F866C8-213B-4C6B-8672-A8F2B06D2C7B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F5F866C8-213B-4C6B-8672-A8F2B06D2C7B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92B52A4A-77DD-43FE-8704-C513C5888A8A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92B52A4A-77DD-43FE-8704-C513C5888A8A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92B52A4A-77DD-43FE-8704-C513C5888A8A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92B52A4A-77DD-43FE-8704-C513C5888A8A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
