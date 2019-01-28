@@ -1,10 +1,10 @@
 ﻿using Newtonsoft.Json;
-using OnlineShop.Shared.Messages;
 using System;
+using OnlineShop.Shared.CQS.Commands;
 
-namespace OnlineShop.Products.Messages
+namespace OnlineShop.Products.CQS.Commands
 {
-	public class CreateProduct : ICommand
+	public class UpdateProduct : ICommand
 	{
 		public Guid Id { get; }
 		public string Name { get; }
@@ -14,7 +14,7 @@ namespace OnlineShop.Products.Messages
 		public int Quantity { get; }
 
 		[JsonConstructor]
-		public CreateProduct(Guid id, string name, string description, string vendor, decimal price, int quantity)
+		public UpdateProduct(Guid id, string name, string description, string vendor, decimal price, int quantity)
 		{
 			Id = id;
 			Name = name;

@@ -5,7 +5,7 @@ using System.Threading.Tasks;
 
 namespace OnlineShop.Shared.Mongo
 {
-	public interface IMongoRepository<TEntity> where TEntity : IIdentifiable
+	public interface IMongoContext<TEntity> where TEntity : IIdentifiable
 	{
 		Task<TEntity> GetAsync(Guid id);
 		Task<TEntity> GetAsync(Expression<Func<TEntity, bool>> predicate);

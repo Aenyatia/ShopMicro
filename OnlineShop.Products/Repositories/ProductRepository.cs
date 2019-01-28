@@ -7,26 +7,26 @@ namespace OnlineShop.Products.Repositories
 {
 	public class ProductRepository : IProductRepository
 	{
-		private readonly IMongoRepository<Product> _repository;
+		private readonly IMongoContext<Product> _context;
 
-		public ProductRepository(IMongoRepository<Product> repository)
+		public ProductRepository(IMongoContext<Product> context)
 		{
-			_repository = repository;
+			_context = context;
 		}
 
 		public async Task<Product> GetAsync(Guid id)
-			=> await _repository.GetAsync(id);
+			=> await _context.GetAsync(id);
 
 		public async Task<bool> ExistsAsync(Guid id)
-			=> await _repository.ExistsAsync(id);
+			=> await _context.ExistsAsync(id);
 
 		public async Task AddAsync(Product product)
-			=> await _repository.AddAsync(product);
+			=> await _context.AddAsync(product);
 
 		public async Task UpdateAsync(Product product)
-			=> await _repository.UpdateAsync(product);
+			=> await _context.UpdateAsync(product);
 
 		public async Task DeleteAsync(Guid id)
-			=> await _repository.DeleteAsync(id);
+			=> await _context.DeleteAsync(id);
 	}
 }

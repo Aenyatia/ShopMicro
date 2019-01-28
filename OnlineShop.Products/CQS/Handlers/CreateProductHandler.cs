@@ -1,12 +1,12 @@
-﻿using OnlineShop.Products.Domain;
+﻿using System.Threading.Tasks;
+using OnlineShop.Products.CQS.Commands;
+using OnlineShop.Products.Domain;
 using OnlineShop.Products.Exceptions;
-using OnlineShop.Products.Messages;
 using OnlineShop.Products.Repositories;
-using OnlineShop.Shared.Handlers;
+using OnlineShop.Shared.CQS.Handlers;
 using OnlineShop.Shared.Types;
-using System.Threading.Tasks;
 
-namespace OnlineShop.Products.Handlers
+namespace OnlineShop.Products.CQS.Handlers
 {
 	public sealed class CreateProductHandler : ICommandHandler<CreateProduct>
 	{

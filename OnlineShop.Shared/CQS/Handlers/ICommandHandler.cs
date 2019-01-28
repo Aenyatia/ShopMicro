@@ -1,7 +1,7 @@
-﻿using OnlineShop.Shared.Messages;
-using System.Threading.Tasks;
+﻿using System.Threading.Tasks;
+using OnlineShop.Shared.CQS.Commands;
 
-namespace OnlineShop.Shared.Handlers
+namespace OnlineShop.Shared.CQS.Handlers
 {
 	public interface ICommandHandler<in TCommand> where TCommand : ICommand
 	{
